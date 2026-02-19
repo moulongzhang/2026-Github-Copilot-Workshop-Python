@@ -21,7 +21,7 @@
 	},
 
 	// Install GitHub Copilot CLI after container creation
-	"postCreateCommand": "gh extension install github/gh-copilot || true"
+	"postCreateCommand": "gh extension install github/gh-copilot || true && npm install -g @github/copilot || true"
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
