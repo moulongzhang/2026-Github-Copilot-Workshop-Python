@@ -10,7 +10,10 @@
 				"vsls-contrib.codetour",
 				"GitHub.copilot",
 				"GitHub.copilot-chat"
-			]
+			],
+			"settings": {
+				"github.copilot.chat.mcp.discovery.enabled": true
+			}
 		}
 	},
 
