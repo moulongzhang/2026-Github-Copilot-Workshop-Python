@@ -1,0 +1,43 @@
+
+body {
+	font-family: 'Segoe UI', Arial, sans-serif;
+	background: #f7f7f7;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	max-width: 400px;
+	margin: 40px auto;
+	background: #fff;
+	border-radius: 12px;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+	padding: 2em 1.5em 2em 1.5em;
+	text-align: center;
+}
+
+#timer-display {
+	font-size: 3em;
+	font-weight: bold;
+	margin: 1em 0;
+	letter-spacing: 2px;
+}
+
+.timer-controls button {
+	font-size: 1.1em;
+	margin: 0 0.5em;
+	padding: 0.5em 1.2em;
+	border: none;
+	border-radius: 6px;
+	background: #e74c3c;
+	color: #fff;
+	cursor: pointer;
+	transition: background 0.2s;
+}
+.timer-controls button:disabled {
+	background: #ccc;
+	cursor: not-allowed;
+}
+.timer-controls button:hover:not(:disabled) {
+	background: #c0392b;
+}

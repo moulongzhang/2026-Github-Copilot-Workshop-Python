@@ -1,0 +1,18 @@
+
+{% extends 'base.html' %}
+
+{% block title %}Pomodoro Timer{% endblock %}
+
+{% block content %}
+<main class="container">
+	<h1>Pomodoro Timer</h1>
+	<div id="timer-display">
+		<span id="minutes">25</span>:<span id="seconds">00</span>
+	</div>
+	<div class="timer-controls">
+		<button id="start-btn">開始</button>
+		<button id="pause-btn" disabled>停止</button>
+		<button id="reset-btn">リセット</button>
+	</div>
+</main>
+{% endblock %}
