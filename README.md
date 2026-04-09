@@ -1,1 +1,1 @@
-ワークショップの手順：https://moulongzhang.github.io/2025-Github-Copilot-Workshop/github-copilot-workshop/#0
+ワークショップの手順：講師からの配布URLをご参照ください
